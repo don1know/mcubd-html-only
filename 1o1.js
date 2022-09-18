@@ -1,4 +1,3 @@
-document.body.append(document.createElement("h6").innerText='6')
 
 var div = document.createElement("div");
 var div2 = document.createElement("div");
@@ -16,7 +15,6 @@ var button4 = document.createElement("button");
 
 
 
-document.body.append(document.createElement("h6").innerText='7')
 
 
 div.setAttribute('id', 'cs')
@@ -36,7 +34,6 @@ hr.setAttribute('id', 'hr')
 
 
 
-document.body.append(document.createElement("h6").innerText='8')
 
 
 
@@ -49,7 +46,6 @@ button4.setAttribute('onclick', 'other()')
 
 
 
-document.body.append(document.createElement("h6").innerText='9')
 
 
 button.innerText = 'Contact me?/Movie request'
@@ -59,7 +55,6 @@ button2.innerText = 'MCU-Seris'
 button3.innerText = 'Marvel'
 button4.innerText = 'Others'
 
-document.body.append(document.createElement("h6").innerText='10')
 
 
 button1.style.display = 'none'
@@ -71,20 +66,17 @@ button.style.display = 'none'
 
 
 
-document.body.append(document.createElement("h6").innerText='11')
 
 
 
 a.append(img)
 div.append(a, button, hr, h7, button1, button2, button3, button4)
 
-document.body.append(document.createElement("h6").innerText='12')
 
 
 document.body.append(div, h4, div2)
 
 
-document.body.append(document.createElement("h6").innerText='13')
 
 
 document.body.style.cssText = 'background-color: #0F0F0F;color: rgb(255, 255, 255);margin: 0px;padding: 0px;margin-left: 1.2%;margin-right: 1.2%;';
@@ -102,7 +94,6 @@ button4.style.cssText = 'height: calc(100vh*.056);font-size: calc(100vh*.056*.3)
 
 hr.style.cssText = 'margin: 0;border-color: #473737;'
 
-document.body.append(document.createElement("h6").innerText='14')
 
 
 document.getElementById('but1').style.display = ''
@@ -113,31 +104,24 @@ document.getElementById('but4').style.display = ''
 document.getElementById('hr').style.display = ''
 document.getElementById('buttt').style.display = ''
 
-document.body.append(document.createElement("h6").innerText='15')
 
 document.getElementById('buttt').style.float = 'right'
 var op = document.getElementById('lp')
 op.src = './logoimg/log.png'
 
 
-document.body.append(document.createElement("h6").innerText='16')
 
 var scriptElement=document.createElement('script');
-document.body.append(document.createElement("h6").innerText='17')
 
 scriptElement.type = 'text/javascript';
-document.body.append(document.createElement("h6").innerText='18')
 
 scriptElement.src = './1.js';
-document.body.append(document.createElement("h6").innerText='19')
 
 script.setAttribute('id', 'scr1')
-document.body.append(document.createElement("h6").innerText='20')
 
 document.body.appendChild(scriptElement);
 
 
-document.body.append(document.createElement("h6").innerText='21')
 
 
 

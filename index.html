@@ -6,37 +6,93 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mcubd</title>
-
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <style>
+        body{
+            background-color: #0F0F0F;
+            color: rgb(255, 255, 255);
+            margin: 0px;
+            padding: 0px;
+            margin-left: 1.2%;
+            margin-right: 1.2%;
+        }
+        #cs{
+            background-color: #373737;
+            height: calc(100vh*.144);
+            position: sticky;top: 0;
+        }
+        #logo{
+            height:calc(100vh*.144*.5) ;
+            padding-left:calc(100vw*.045) ;
+        }
+        #but{
+            float: right;
+            padding: calc(100vh*.144*.07);
+            background-color: #acacac;
+            font-size: 10px;
+        }
+        .butall4{
+            height: calc(100vh*.056);
+            font-size: calc(100vh*.056*.3);
+            padding: 0   calc(100vw*.06) 0 calc(100vw*.06)
+        }
+        hr{
+            margin: 0;border-color: #473737;
+        }
+        #but1{
+            background-color: grey;
+        }
+        #chidiv{
+            background-color:#000000;
+            padding:0px;
+            margin-top:14px;
+            float:left;
+        }
+        #iiidiv{
+            overflow: hidden;
+        }
 
+    </style>
 </head>
 
 <body>
-<h2>Almost done bro last time</h2>
+<div id="cs">
+    <a href=""><img id="logo" src="https://mcubd.netlify.app/logoimg1/log.png" alt="mcubd"></a>
+    <a href=""><button id="but">Contact me?/Movie request</button></a>
+    <hr>   
+    <a href=""><button id="but1" class="butall4">MCU</button></a>
+    <a href=""><button class="butall4">MCU-Seris</button></a>
+    <a href=""><button class="butall4">Marvel</button></a>
+    <a href=""><button class="butall4">Others</button></a>
+
+</div>
+
+<h4></h4>
+
+<div id="cont">
+    <div id="chidiv">
+        <div id="iiidiv">
+            <img id="poster" src="https://mcubd.netlify.app/logoimg1/Thor3.jpg" alt="img">
+        </div>
+        <p>Thor ragnarok (2017) [1.3GB]</p>
+    </div>
+
+</div>
 
 <script>
-document.body.append(document.createElement("h4").innerText='1')
+    var w = window.innerWidth;
+    var h = window.innerHeight;
+    var g = w * .3939
 
-    var script=document.createElement('script');
-document.body.append(document.createElement("h6").innerText='2')
+    var chidiv=document.getElementById('chidiv')
+    var iiidiv=document.getElementById('iiidiv')
+    var image=document.getElementById('poster')
 
-script.type = 'text/javascript';
-document.body.append(document.createElement("h6").innerText='3')
-
-script.src = './1o1.js';
-document.body.append(document.createElement("h6").innerText='4')
-
-document.body.appendChild(script);
-document.body.append(document.createElement("h6").innerText='5')
-
-
+    chidiv.style.height = h * .55 + 'px'
+        chidiv.style.width = g + 'px'
+        image.style.width = g + 'px'
+        iiidiv.style.height = h * .4 + 'px'
 </script>
-
-<style>#cont>div:nth-child(odd) {margin-right: calc(100vw*.176)}</style>
-
-
-
-
 </body>
 
 </html>

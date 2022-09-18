@@ -61,7 +61,6 @@ function other() {
 
 
 
-document.body.append(document.createElement("h6").innerText='24')
 
 
 function imgdiv(bname, bimg, q7pp,size,t1,t2) {
@@ -114,7 +113,6 @@ function imgdiv(bname, bimg, q7pp,size,t1,t2) {
 
     }
 
-document.body.append(document.createElement("h6").innerText='25')
 
     chidiv.onclick = () => {
         var con = document.getElementById('cont')

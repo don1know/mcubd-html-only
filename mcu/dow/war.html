@@ -74,10 +74,20 @@ text-decoration: none;
 <a href="https://mcubd.netlify.app/mcu/war.html">
     <button id="on">Watch online</button>
 </a>
-<a href="https://abcd.bdff.workers.dev/0:/infinity.mp4">
+<a onclick="ap()" href="https://abcd.bdff.workers.dev/0:/infinity.mp4">
     <button id="dow">Download (1.3GB)</button>
 </a>
 
+
+<script>
+    function ap(){
+        var xhttp = new XMLHttpRequest();
+xhttp.open("POST", 'https://nodebd.vercel.app/', true);
+xhttp.setRequestHeader('reqs', 'war-download-')
+xhttp.send();    
+    
+    }
+</script>
 
 </body>
 </html>

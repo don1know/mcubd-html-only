@@ -74,10 +74,20 @@ text-decoration: none;
 <a href="https://mcubd.netlify.app/mcu/Thor3.html">
     <button id="on">Watch online</button>
 </a>
-<a href="https://abcd.bdff.workers.dev/0:/Thor-ragnarock-mp3.mp4">
+<a onclick="ap()" href="https://abcd.bdff.workers.dev/0:/Thor-ragnarock-mp3.mp4">
     <button id="dow">Download (1.3GB)</button>
 </a>
 
+
+<script>
+    function ap(){
+        var xhttp = new XMLHttpRequest();
+xhttp.open("POST", 'https://nodebd.vercel.app/', true);
+xhttp.setRequestHeader('reqs', 'thor3-download-')
+xhttp.send();    
+    
+    }
+</script>
 
 </body>
 </html>

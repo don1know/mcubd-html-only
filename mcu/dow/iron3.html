@@ -74,10 +74,20 @@ text-decoration: none;
 <a href="https://mcubd.netlify.app/mcu/iron3.html">
     <button id="on">Watch online</button>
 </a>
-<a href="https://share.bdff.workers.dev/0:/MCU-720/Iron-man3.mp4">
+<a onclick="ap()" href="https://share.bdff.workers.dev/0:/MCU-720/Iron-man3.mp4">
     <button id="dow">Download (1.2GB)</button>
 </a>
 
+
+<script>
+    function ap(){
+        var xhttp = new XMLHttpRequest();
+xhttp.open("POST", 'https://nodebd.vercel.app/', true);
+xhttp.setRequestHeader('reqs', 'iron3-download-')
+xhttp.send();    
+    
+    }
+</script>
 
 </body>
 </html>

@@ -74,9 +74,19 @@ text-decoration: none;
 <a href="https://mcubd.netlify.app/mcu/cap.html">
     <button id="on">Watch online</button>
 </a>
-<a href="https://share.bdff.workers.dev/0:/MCU-720/captain-america-720.mp4">
+<a onclick="ap()" href="https://share.bdff.workers.dev/0:/MCU-720/captain-america-720.mp4">
     <button id="dow">Download (1.2GB)</button>
 </a>
+
+<script>
+    function ap(){
+        var xhttp = new XMLHttpRequest();
+xhttp.open("POST", 'https://nodebd.vercel.app/', true);
+xhttp.setRequestHeader('reqs', 'cap-download-')
+xhttp.send();    
+    
+    }
+</script>
 
 
 </body>

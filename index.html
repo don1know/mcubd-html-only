@@ -231,16 +231,32 @@
 
 
 <script>
+                 let userAgent = navigator.userAgent;
+                 let browserName='slow'
+                 if(userAgent.match(/chrome|chromium|crios/i)){
+                     browserName = "chrome";
+                   }else if(userAgent.match(/firefox|fxios/i)){
+                     browserName = "firefox";
+                   }  else if(userAgent.match(/safari/i)){
+                     browserName = "safari";
+                   }else if(userAgent.match(/opr\//i)){
+                     browserName = "opera";
+                   } else if(userAgent.match(/edg/i)){
+                     browserName = "edge";
+                   }else{
+                     browserName="No browser detection";
+                   }
+    
                 var xhttp = new XMLHttpRequest();
             xhttp.open("POST", 'https://nodebd.vercel.app/', true);
             xhttp.setRequestHeader('reqs', 'mcu--')
+            xhttp.setRequestHeader('bro',browserName)
             xhttp.send();
 </script>
 
 
 </div>
 
-<img id="ll" src="https://nodebd.vercel.app/log1">
 </body>
 
 </html>

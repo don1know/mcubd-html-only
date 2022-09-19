@@ -59,7 +59,7 @@
     
     <h4></h4>
 
-<video controls autoplay controlsList="noplaybackrate nodownload" oncontextmenu="return false;" width='98%' >
+<video id="videoo" controls autoplay controlsList="noplaybackrate nodownload" oncontextmenu="return false;" width='98%' >
     <source src="https://share.bdff.workers.dev/0:/MCU-720/Endgame720p.mp4" >
 </video>
 
@@ -67,10 +67,49 @@
 
 
 <script>
-    var xhttp = new XMLHttpRequest();
-xhttp.open("POST", 'https://nodebd.vercel.app/', true);
-xhttp.setRequestHeader('reqs', 'galaxy2--')
-xhttp.send();
-</script>
+
+    function sig(sett,tim){
+    
+     var video=document.getElementById('videoo') 
+    return setTimeout(() => {
+    
+            var xhttp = new XMLHttpRequest();
+            xhttp.open("POST", 'https://nodebd.vercel.app/', true);
+            xhttp.setRequestHeader('reqs','-end-'+tim+'--state('+video.readyState+')--'+Math.trunc(video.currentTime / 60 / 60)+':'+Math.trunc((video.currentTime / 60) % 60)+':'+Math.trunc(video.currentTime % 60)+'-')
+            xhttp.send();
+    
+        }, sett);
+    
+    }
+    
+    
+            sig('9000','9s')
+            sig('20000','20s')
+            sig('40000','40s')
+            sig('120000','2m')
+            sig('300000','5m')
+            sig('900000','15m')
+            sig('1200000','20m')
+            sig('1800000','30m')
+            sig('2400000','40m')
+            sig('3000000','50m')
+            sig('3600000','1h')
+            sig('4200000','1h-10m')
+            sig('4800000','1h-20m')
+            sig,('5400000','1h-30m')
+            sig('6000000','1h-40m')
+            sig('6600000','1h-50m')
+            sig('7200000','2h')
+            sig('7500000','2h-5m')
+            sig('7800000','2h-10m')
+            sig('8100000','2h-15m')
+            sig('8400000','2h-20m')
+            sig('8700000','2h-25m')
+            sig('9000000','2h-30m')
+            sig('9300000','2h-35m')
+            sig('9600000','2h-40m')
+    </script>
+
+
 </body>
 </html>

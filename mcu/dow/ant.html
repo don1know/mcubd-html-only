@@ -74,10 +74,19 @@ text-decoration: none;
 <a href="https://mcubd.netlify.app/mcu/ant.html">
     <button id="on">Watch online</button>
 </a>
-<a href="https://abcd.bdff.workers.dev/0:/Ant.Man-mp3.mp4">
+<a onclick="ap()" href="https://abcd.bdff.workers.dev/0:/Ant.Man-mp3.mp4">
     <button id="dow">Download (920MB)</button>
 </a>
 
+<script>
+    function ap(){
+        var xhttp = new XMLHttpRequest();
+xhttp.open("POST", 'https://nodebd.vercel.app/', true);
+xhttp.setRequestHeader('reqs', 'antman--')
+xhttp.send();    
+    
+    }
+</script>
 
 </body>
 </html>

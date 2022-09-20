@@ -69,11 +69,10 @@ button.style.display = 'none'
 
 
 a.append(img)
-div.append(a, button, hr, h7, button1, button2, button3, button4)
 
 
 
-document.body.append(div, h4, div2)
+document.body.append( h4, div2)
 
 
 
@@ -95,13 +94,7 @@ hr.style.cssText = 'margin: 0;border-color: #473737;'
 
 
 
-document.getElementById('but1').style.display = ''
-document.getElementById('but1').style.backgroundColor = 'grey'
-document.getElementById('but2').style.display = ''
-document.getElementById('but3').style.display = ''
-document.getElementById('but4').style.display = ''
-document.getElementById('hr').style.display = ''
-document.getElementById('buttt').style.display = ''
+
 
 
 document.getElementById('buttt').style.float = 'right'

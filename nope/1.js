@@ -80,7 +80,7 @@ function imgdiv(bname, bimg, q7pp,size,t1,t2) {
         down7.setAttribute('id', 'down')
 
         onli.innerText = 'Watch Online'
-        down7.innerText = 'Download (' + size + ')'
+        down7.innerText = 'Download'
 
         down7.style.display = 'block'
         down7.style.width = '100%'
@@ -150,12 +150,12 @@ setTimeout(() => {
 
     // imgdiv(name,img,q7,down,size)
 
-    imgdiv('Thor ragnarok (2017) [1.3GB]', 'Thor3', 'https://abcd.bdff.workers.dev/0:/Thor-ragnarock-mp3.mp4', '1.3GB','7354','7770')
+    imgdiv('lisa dance', 'https://share.bdff.workers.dev/0:/OTHERS/English./poster/lisa-dance.jpg', 'https://share.bdff.workers.dev/0:/OTHERS/English./lisa-dance.mp4',)
 
 
-    imgdiv('Guardian of the galaxy vol.2  (2017) [1.2GB]', 'galaxy2','https://abcd.bdff.workers.dev/0:/Guardian2-mp3.mp4', '1.2GB')
+    // imgdiv('Guardian of the galaxy vol.2  (2017) [1.2GB]', 'galaxy2','https://abcd.bdff.workers.dev/0:/Guardian2-mp3.mp4', '1.2GB')
 
-    imgdiv('Avengers: Infinity War   (2018)         [1.3GB]', 'war', 'https://abcd.bdff.workers.dev/0:/infinity.mp4', '1.3GB')
+    // imgdiv('Avengers: Infinity War   (2018)         [1.3GB]', 'war', 'https://abcd.bdff.workers.dev/0:/infinity.mp4', '1.3GB')
 
 
 

@@ -15,7 +15,7 @@ function other() {
 
 
 
-function imgdiv(bname, bimg, q7pp,size,t1,t2) {
+function imgdiv(bimg, q7pp) {
     var w = window.innerWidth;
     var h = window.innerHeight;
     var g = w * .3939
@@ -50,7 +50,7 @@ function imgdiv(bname, bimg, q7pp,size,t1,t2) {
         image.style.height = h * .7 + 'px'
 
 
-        iiidiv.style.height = h * .7 + 'px'
+        iiidiv.style.height = h * .9 + 'px'
         iiidiv.style.overflow = 'hidden'
 
     } 
@@ -66,7 +66,7 @@ function imgdiv(bname, bimg, q7pp,size,t1,t2) {
         image.style.height = h * .4 + 'px'
 
 
-        iiidiv.style.height = h * .4 + 'px'
+        iiidiv.style.height = h * .55 + 'px'
         iiidiv.style.overflow = 'hidden'
 
     }
@@ -156,7 +156,7 @@ setTimeout(() => {
 
     // imgdiv(name,img,q7,down,size)
 
-    imgdiv('lisa dance', 'https://share.bdff.workers.dev/0:/OTHERS/English./poster/lisa-dance.jpg', 'https://share.bdff.workers.dev/0:/OTHERS/English./lisa-dance.mp4',)
+    imgdiv('https://share.bdff.workers.dev/0:/OTHERS/English./poster/lisa-dance.jpg', 'https://share.bdff.workers.dev/0:/OTHERS/English./lisa-dance.mp4',)
 
 
     // imgdiv('Guardian of the galaxy vol.2  (2017) [1.2GB]', 'galaxy2','https://abcd.bdff.workers.dev/0:/Guardian2-mp3.mp4', '1.2GB')

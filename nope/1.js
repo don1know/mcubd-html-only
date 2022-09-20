@@ -16,7 +16,7 @@ function other() {
 
 
 function imgdiv(bimg, q7pp) {
-    var w = window.innerWidth;
+    var w = window.innerWidth*.95
     var h = window.innerHeight;
     var g = w * .3939
 
@@ -43,7 +43,7 @@ function imgdiv(bimg, q7pp) {
         chidiv.style.padding = '0px'
         chidiv.style.marginTop = '14px'
         // chidiv.style.float = 'left'
-        // chidiv.style.height = h * .9 + 'px'
+        chidiv.style.height = h + 'px'
         chidiv.style.width = w+'px'
 
         image.style.width = w+ 'px'
@@ -59,7 +59,7 @@ function imgdiv(bimg, q7pp) {
         chidiv.style.padding = '0px'
         chidiv.style.marginTop = '14px'
         // chidiv.style.float = 'left'
-        chidiv.style.height = h * .55 + 'px'
+        chidiv.style.height = h +'px'
         chidiv.style.width = w + 'px'
 
         // image.style.width = g + 'px'

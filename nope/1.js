@@ -36,6 +36,8 @@ function imgdiv(bname, bimg, q7pp,size,t1,t2) {
     var con = document.getElementById('cont')
     con.appendChild(chidiv)
 
+
+
     if (h - w < 0) {
         chidiv.style.backgroundColor = '#000000';
         chidiv.style.padding = '0px'
@@ -44,7 +46,7 @@ function imgdiv(bname, bimg, q7pp,size,t1,t2) {
         chidiv.style.height = h * .9 + 'px'
         chidiv.style.width = g * .6 + 'px'
 
-        image.style.width = g * .6 + 'px'
+        // image.style.width = g * .6 + 'px'
         image.style.height = h * .7 + 'px'
 
 
@@ -60,7 +62,7 @@ function imgdiv(bname, bimg, q7pp,size,t1,t2) {
         chidiv.style.height = h * .55 + 'px'
         chidiv.style.width = g + 'px'
 
-        image.style.width = g + 'px'
+        // image.style.width = g + 'px'
         image.style.height = h * .4 + 'px'
 
 

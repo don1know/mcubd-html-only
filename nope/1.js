@@ -45,6 +45,8 @@ function imgdiv(bname, bimg, q7pp,size,t1,t2) {
         chidiv.style.width = g * .6 + 'px'
 
         image.style.width = g * .6 + 'px'
+        image.style.height = h * .7 + 'px'
+
 
         iiidiv.style.height = h * .7 + 'px'
         iiidiv.style.overflow = 'hidden'

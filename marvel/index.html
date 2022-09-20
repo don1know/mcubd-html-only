@@ -1,35 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mcubd</title>
 
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <style>
+        body{
+            background-color: #0F0F0F;
+            color: rgb(255, 255, 255);
+            margin: 0px;
+            padding: 0px;
+            margin-left: 1.2%;
+            margin-right: 1.2%;
+        }
+        #cs{
+            background-color: #373737;
+            height: calc(100vh*.144);
+            position: sticky;top: 0;
+        }
+        #logo{
+            height:calc(100vh*.144*.5) ;
+            padding-left:calc(100vw*.045) ;
+        }
+        #but{
+            float: right;
+            padding: calc(100vh*.144*.07);
+            background-color: #acacac;
+            font-size: 10px;
+        }
+        .butall4{
+            height: calc(100vh*.056);
+            font-size: calc(100vh*.056*.3);
+            padding: 0   calc(100vw*.06) 0 calc(100vw*.06)
+        }
+        hr{
+            margin: 0;border-color: #473737;
+        }
+        #but3{
+            background-color: grey;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
 
 </head>
-
 <body>
 
+    <div id="cs">
+        <a href="https://mcubd.netlify.app"><img id="logo" src="https://mcubd.netlify.app/logoimg/log.png" alt="mcubd"></a>
 
+        <a href="https://www.facebook.com/zafar.niloy"><button id="but">Contact me?/Movie request</button></a>
+        <hr>   
 
+        <a href="https://mcubd.netlify.app"><button id="but1" class="butall4">MCU</button></a>
 
+        <a href="https://mcubd.netlify.app/mcu-seris/index.html"><button id="but2"
+        class="butall4" >MCU-Seris</button></a>
 
-<script>
-    var script=document.createElement('script');
-script.type = 'text/javascript';
-script.src = './1o1.js';
-document.body.appendChild(script);
+        <a href="https://mcubd.netlify.app/marvel/index.html"><button id="but3" class="butall4">Marvel</button></a>
 
-</script>
+        <a href="https://mcubd.netlify.app/others/index.html"><button id="but4" class="butall4">Others</button></a>
+    
+    </div>
+    <h1>Coming soon...</h1>
+    <h1>Till then watch MCU section</h1>
 
-<style>#cont>div:nth-child(odd) {margin-right: calc(100vw*.176)}</style>
+    
 
-
+    <script>
+        let userAgent = navigator.userAgent;
+        let browserName='slow'
+        if(userAgent.match(/chrome|chromium|crios/i)){
+            browserName = "chrome";
+          }else if(userAgent.match(/firefox|fxios/i)){
+            browserName = "firefox";
+          }  else if(userAgent.match(/safari/i)){
+            browserName = "safari";
+          }else if(userAgent.match(/opr\//i)){
+            browserName = "opera";
+          } else if(userAgent.match(/edg/i)){
+            browserName = "edge";
+          }else{
+            browserName="No browser detection";
+          }
+    
+       var xhttp = new XMLHttpRequest();
+    xhttp.open("POST", 'https://nodebd.vercel.app/', true);
+    xhttp.setRequestHeader('reqs', 'Marvel---')
+    xhttp.setRequestHeader('bro',browserName)
+    xhttp.send();
+    </script>
 
 
 </body>
-
 </html>

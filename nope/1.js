@@ -24,7 +24,7 @@ function imgdiv(bimg, q7pp) {
     var chidiv = document.createElement("div");
     var iiidiv = document.createElement("div");
     var p = document.createElement("p");
-    p.innerText = bname
+    // p.innerText = bname
     var image = document.createElement("img");
 
     chidiv.classList.add('chi');

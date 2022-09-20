@@ -1,4 +1,3 @@
-document.body.append(document.createElement("h6").innerText='22')
 
 function me() {
     // var xhttp = new XMLHttpRequest();
@@ -10,7 +9,6 @@ function me() {
 }
 
 
-document.body.append(document.createElement("h6").innerText='23')
 
 function mcus() {
 // var xhttp = new XMLHttpRequest();
@@ -61,7 +59,6 @@ function other() {
 
 
 
-document.body.append(document.createElement("h6").innerText='24')
 
 
 function imgdiv(bname, bimg, q7pp,size,t1,t2) {
@@ -114,7 +111,6 @@ function imgdiv(bname, bimg, q7pp,size,t1,t2) {
 
     }
 
-document.body.append(document.createElement("h6").innerText='25')
 
     chidiv.onclick = () => {
         var con = document.getElementById('cont')
@@ -150,7 +146,6 @@ document.body.append(document.createElement("h6").innerText='25')
         // document.body.append(video, button)
         document.body.append(down7,onli)
 
-document.body.append(document.createElement("h6").innerText='26')
     
 
 
@@ -189,7 +184,6 @@ onli.onclick = () => {
         video.append(source)
 
         document.body.append(video)
-document.body.append(document.createElement("h6").innerText='27')
 
 
         // var ti0 = setTimeout(() => {
@@ -228,7 +222,6 @@ document.body.append(document.createElement("h6").innerText='27')
         sig(bimg,'9300000','2h-35m')
         sig(bimg,'9600000','2h-40m')
 
-        document.body.append(document.createElement("h6").innerText='28')
 
 
 

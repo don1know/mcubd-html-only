@@ -98,8 +98,7 @@ hr.style.cssText = 'margin: 0;border-color: #473737;'
 
 
 // document.getElementById('buttt').style.float = 'right'
-var op = document.getElementById('lp')
-op.src = './logoimg/log.png'
+
 
 
 

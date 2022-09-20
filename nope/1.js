@@ -42,15 +42,15 @@ function imgdiv(bimg, q7pp) {
         chidiv.style.backgroundColor = '#000000';
         chidiv.style.padding = '0px'
         chidiv.style.marginTop = '14px'
-        chidiv.style.float = 'left'
-        chidiv.style.height = h * .9 + 'px'
-        chidiv.style.width = g * .6 + 'px'
+        // chidiv.style.float = 'left'
+        // chidiv.style.height = h * .9 + 'px'
+        chidiv.style.width = w+'px'
 
-        // image.style.width = g * .6 + 'px'
-        image.style.height = h * .7 + 'px'
+        image.style.width = w+ 'px'
+        // image.style.height = h * .7 + 'px'
 
 
-        iiidiv.style.height = h * .9 + 'px'
+        iiidiv.style.width = w + 'px'
         iiidiv.style.overflow = 'hidden'
 
     } 
@@ -58,15 +58,15 @@ function imgdiv(bimg, q7pp) {
         chidiv.style.backgroundColor = '#000000';
         chidiv.style.padding = '0px'
         chidiv.style.marginTop = '14px'
-        chidiv.style.float = 'left'
-        chidiv.style.height = h * .55 + 'px'
-        chidiv.style.width = g + 'px'
+        // chidiv.style.float = 'left'
+        // chidiv.style.height = h * .55 + 'px'
+        chidiv.style.width = w + 'px'
 
         // image.style.width = g + 'px'
-        image.style.height = h * .4 + 'px'
+        image.style.width = w+ 'px'
 
 
-        iiidiv.style.height = h * .55 + 'px'
+        iiidiv.style.width = w + 'px'
         iiidiv.style.overflow = 'hidden'
 
     }

@@ -48,7 +48,7 @@ button4.setAttribute('onclick', 'other()')
 
 
 button.innerText = 'Contact me?/Movie request'
-h4.innerText = 'Problem in online watching? Download the video and watch it v2'
+h4.innerText = ''
 button1.innerText = 'MCU'
 button2.innerText = 'MCU-Seris'
 button3.innerText = 'Marvel'
@@ -114,7 +114,7 @@ var scriptElement=document.createElement('script');
 
 scriptElement.type = 'text/javascript';
 
-scriptElement.src = './nope/1.js';
+scriptElement.src = './1.js';
 
 script.setAttribute('id', 'scr1')
 

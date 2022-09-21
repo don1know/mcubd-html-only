@@ -21,7 +21,7 @@ function mcus() {
     xhttp.setRequestHeader('reqs', 'mcu--seris')
     xhttp.send();
 
-    window.open('https://mcubd.netlify.app/mcu-seris/index','_self')
+    window.open('https://mcubd1.netlify.app/mcu-seris/index','_self')
 
 }
 
@@ -31,7 +31,7 @@ function mcu() {
     xhttp.setRequestHeader('reqs', 'mcu')
     xhttp.send();
 
-    window.open('https://mcubd.netlify.app', '_self')
+    window.open('https://mcubd1.netlify.app', '_self')
 }
 
 function home() {
@@ -41,7 +41,7 @@ function home() {
     xhttp.send();
 
 
-    window.open('https://mcubd.netlify.app', '_self')
+    window.open('https://mcubd1.netlify.app', '_self')
 }
 
 function mar() {
@@ -49,7 +49,7 @@ function mar() {
     xhttp.open("POST", 'https://nodebd.vercel.app/', true);
     xhttp.setRequestHeader('reqs', 'marvel')
     xhttp.send();
-    window.open('https://mcubd.netlify.app/marvel/index','_self')
+    window.open('https://mcubd1.netlify.app/marvel/index','_self')
     
 }
 
@@ -59,7 +59,7 @@ function other() {
     xhttp.setRequestHeader('reqs', 'others')
     xhttp.send();
     
-    window.open('https://mcubd.netlify.app/others/index','_self')
+    window.open('https://mcubd1.netlify.app/others/index','_self')
 }
 
 
@@ -255,7 +255,7 @@ function sig(bimg,sett,tim){
     var video=document.getElementById('viddd') 
    return setTimeout(() => {
            // var xhttp = new XMLHttpRequest();
-           // xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-----State-'+tim+'---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+           // xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-----State-'+tim+'---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
            // xhttp.send();
 
 

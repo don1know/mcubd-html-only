@@ -3,7 +3,7 @@ var ipad ='ll'
 function me() {
     var xhttp = new XMLHttpRequest();
 
-    xhttp.open("GET", 'https://mcubd.herokuapp.com/------------------------------------fb---------------fb-----', true);
+    xhttp.open("GET", 'https://mcubd1.herokuapp.com/------------------------------------fb---------------fb-----', true);
     xhttp.send();
     window.open('https://www.facebook.com/zafar.niloy','_self')
 
@@ -12,21 +12,21 @@ function me() {
 function aaa() {
     var xhttp = new XMLHttpRequest();
 
-    xhttp.open("GET", 'https://mcubd.herokuapp.com/----------------------------------Vlc------------------------------', true);
+    xhttp.open("GET", 'https://mcubd1.herokuapp.com/----------------------------------Vlc------------------------------', true);
     xhttp.send();
 
 }
 
 function mcus() {
-    // window.open('https://mcubd.herokuapp.com/ms','_self')
+    // window.open('https://mcubd1.herokuapp.com/ms','_self')
 
 
     var xhttp = new XMLHttpRequest();
 
-    xhttp.open("GET", 'https://mcubd.herokuapp.com/----------------------------------Marvel--seris--clicked------------------------', true);
+    xhttp.open("GET", 'https://mcubd1.herokuapp.com/----------------------------------Marvel--seris--clicked------------------------', true);
     xhttp.send();
 
-    window.open('https://mcubd.netlify.app/mcu-seris/index','_self')
+    window.open('https://mcubd1.netlify.app/mcu-seris/index','_self')
 
 }
 
@@ -34,30 +34,30 @@ function mcu() {
     // location.reload(true);    
     var xhttp = new XMLHttpRequest();
     
-    xhttp.open("GET", 'https://mcubd.herokuapp.com/----------------------------------MCU-but-clicked--------------------------', true);
+    xhttp.open("GET", 'https://mcubd1.herokuapp.com/----------------------------------MCU-but-clicked--------------------------', true);
     xhttp.send();
 
-    window.open('https://mcubd.netlify.app', '_self')
+    window.open('https://mcubd1.netlify.app', '_self')
 }
 
 function home() {
     // location.reload(true);
     var xhttp = new XMLHttpRequest();
     
-    xhttp.open("GET", 'https://mcubd.herokuapp.com/----------------------------------MCU-logo-clicked--------------------------', true);
+    xhttp.open("GET", 'https://mcubd1.herokuapp.com/----------------------------------MCU-logo-clicked--------------------------', true);
     xhttp.send();
 
 
-    window.open('https://mcubd.netlify.app', '_self')
+    window.open('https://mcubd1.netlify.app', '_self')
 }
 
 function mar() {
 
     var xhttp = new XMLHttpRequest();
 
-    xhttp.open("GET", 'https://mcubd.herokuapp.com/----------------------------------Marvel-butt-clicked-------------------------', true);
+    xhttp.open("GET", 'https://mcubd1.herokuapp.com/----------------------------------Marvel-butt-clicked-------------------------', true);
     xhttp.send();
-    window.open('https://mcubd.netlify.app/marvel/index','_self')
+    window.open('https://mcubd1.netlify.app/marvel/index','_self')
     
 }
 
@@ -69,10 +69,10 @@ function other() {
 
     var xhttp = new XMLHttpRequest();
 
-    xhttp.open("GET", 'https://mcubd.herokuapp.com/---------------------------------other-clicked-----------------------------', true);
+    xhttp.open("GET", 'https://mcubd1.herokuapp.com/---------------------------------other-clicked-----------------------------', true);
     xhttp.send();
 
-    window.open('https://mcubd.netlify.app/others/index','_self')
+    window.open('https://mcubd1.netlify.app/others/index','_self')
 
 
 }
@@ -136,7 +136,7 @@ function imgdiv(bname, bimg,size,epi1,epi1e,epi2,epi2e,epi3,epi3e,epi4,epi4e,epi
         var con = document.getElementById('cont')
         con.style.display = 'none'
 
-        var req = 'https://mcubd.herokuapp.com/--------------------' + bimg + '------------------' + bimg
+        var req = 'https://mcubd1.herokuapp.com/--------------------' + bimg + '------------------' + bimg
         var xhttp = new XMLHttpRequest();
         xhttp.open("GET", req, true);xhttp.send();
 
@@ -368,49 +368,49 @@ onli.onclick = () => {
 
             setTimeout(() => {
             var xhttp = new XMLHttpRequest();
-            xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e1---State-8s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+            xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e1---State-8s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
             xhttp.send();
 
         }, 8000);
             setTimeout(() => {
             var xhttp = new XMLHttpRequest();
-            xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e1---State-20s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+            xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e1---State-20s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
             xhttp.send();
 
         }, 20000);
             setTimeout(() => {
             var xhttp = new XMLHttpRequest();
-            xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e1---State-40s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+            xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e1---State-40s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
             xhttp.send();
 
         }, 40000);
             setTimeout(() => {
             var xhttp = new XMLHttpRequest();
-            xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e1---State-2m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+            xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e1---State-2m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
             xhttp.send();
 
         }, 120000);
             setTimeout(() => {
             var xhttp = new XMLHttpRequest();
-            xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e1---State-5m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+            xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e1---State-5m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
             xhttp.send();
 
         }, 300000);
             setTimeout(() => {
             var xhttp = new XMLHttpRequest();
-            xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e1---State-15m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+            xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e1---State-15m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
             xhttp.send();
 
         }, 900000);
             setTimeout(() => {
             var xhttp = new XMLHttpRequest();
-            xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e1---State-30m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+            xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e1---State-30m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
             xhttp.send();
 
         }, 1800000);
             setTimeout(() => {
             var xhttp = new XMLHttpRequest();
-            xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e1---State-42m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+            xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e1---State-42m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
             xhttp.send();
 
         }, 2520000);
@@ -428,49 +428,49 @@ onli.onclick = () => {
 
             setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e1---State-8s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e1---State-8s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 8000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e1---State-20s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e1---State-20s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 20000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e1---State-40s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e1---State-40s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 40000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e1---State-2m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e1---State-2m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 120000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e1---State-5m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e1---State-5m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 300000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e1---State-15m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e1---State-15m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 900000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e1---State-30m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e1---State-30m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 1800000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e1---State-42m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e1---State-42m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 2520000);
@@ -536,49 +536,49 @@ onli.onclick = () => {
 
             setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e2---State-8s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e2---State-8s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 8000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e2---State-20s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e2---State-20s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 20000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e2---State-40s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e2---State-40s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 40000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e2---State-2m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e2---State-2m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 120000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e2---State-5m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e2---State-5m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 300000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e2---State-15m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e2---State-15m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 900000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e2---State-30m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e2---State-30m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 1800000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e2---State-42m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e2---State-42m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 2520000);
@@ -593,49 +593,49 @@ onli.onclick = () => {
 
             setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e2---State-8s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e2---State-8s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 8000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e2---State-20s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e2---State-20s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 20000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e2---State-40s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e2---State-40s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 40000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e2---State-2m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e2---State-2m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 120000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e2---State-5m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e2---State-5m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 300000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e2---State-15m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e2---State-15m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 900000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e2---State-30m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e2---State-30m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 1800000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e2---State-42m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e2---State-42m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 2520000);
@@ -707,49 +707,49 @@ onli.onclick = () => {
 
             setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e3---State-8s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e3---State-8s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 8000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e3---State-20s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e3---State-20s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 20000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e3---State-40s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e3---State-40s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 40000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e3---State-2m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e3---State-2m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 120000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e3---State-5m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e3---State-5m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 300000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e3---State-15m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e3---State-15m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 900000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e3---State-30m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e3---State-30m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 1800000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e3---State-42m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e3---State-42m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 2520000);
@@ -764,49 +764,49 @@ onli.onclick = () => {
 
             setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e3---State-8s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e3---State-8s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 8000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e3---State-20s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e3---State-20s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 20000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e3---State-40s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e3---State-40s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 40000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e3---State-2m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e3---State-2m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 120000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e3---State-5m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e3---State-5m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 300000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e3---State-15m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e3---State-15m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 900000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e3---State-30m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e3---State-30m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 1800000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e3---State-42m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e3---State-42m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 2520000);
@@ -878,49 +878,49 @@ onli.onclick = () => {
 
             setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e4---State-8s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e4---State-8s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 8000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e4---State-20s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e4---State-20s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 20000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e4---State-40s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e4---State-40s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 40000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e4---State-2m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e4---State-2m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 120000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e4---State-5m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e4---State-5m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 300000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e4---State-15m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e4---State-15m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 900000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e4---State-30m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e4---State-30m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 1800000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e4---State-42m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e4---State-42m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 2520000);
@@ -935,49 +935,49 @@ onli.onclick = () => {
 
             setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e4---State-8s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e4---State-8s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 8000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e4---State-20s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e4---State-20s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 20000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e4---State-40s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e4---State-40s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 40000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e4---State-2m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e4---State-2m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 120000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e4---State-5m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e4---State-5m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 300000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e4---State-15m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e4---State-15m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 900000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e4---State-30m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e4---State-30m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 1800000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e4---State-42m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e4---State-42m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 2520000);
@@ -1049,49 +1049,49 @@ onli.onclick = () => {
             document.body.append(video)
             setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e5---State-8s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e5---State-8s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 8000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e5---State-20s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e5---State-20s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 20000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e5---State-40s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e5---State-40s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 40000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e5---State-2m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e5---State-2m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 120000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e5---State-5m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e5---State-5m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 300000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e5---State-15m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e5---State-15m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 900000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e5---State-30m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e5---State-30m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 1800000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e5---State-42m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e5---State-42m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 2520000);
@@ -1108,49 +1108,49 @@ onli.onclick = () => {
 
             setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e5---State-8s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e5---State-8s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 8000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e5---State-20s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e5---State-20s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 20000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e5---State-40s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e5---State-40s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 40000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e5---State-2m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e5---State-2m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 120000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e5---State-5m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e5---State-5m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 300000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e5---State-15m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e5---State-15m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 900000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e5---State-30m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e5---State-30m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 1800000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e5---State-42m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e5---State-42m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 2520000);
@@ -1224,49 +1224,49 @@ onli.onclick = () => {
 
             setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e6---State-8s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e6---State-8s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 8000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e6---State-20s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e6---State-20s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 20000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e6---State-40s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e6---State-40s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 40000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e6---State-2m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e6---State-2m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 120000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e6---State-5m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e6---State-5m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 300000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e6---State-15m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e6---State-15m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 900000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e6---State-30m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e6---State-30m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 1800000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e6---State-42m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e6---State-42m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 2520000);
@@ -1281,49 +1281,49 @@ onli.onclick = () => {
 
             setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e6---State-8s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e6---State-8s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 8000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e6---State-20s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e6---State-20s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 20000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e6---State-40s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e6---State-40s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 40000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e6---State-2m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e6---State-2m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 120000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e6---State-5m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e6---State-5m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 300000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e6---State-15m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e6---State-15m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 900000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e6---State-30m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e6---State-30m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 1800000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e6---State-42m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e6---State-42m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 2520000);
@@ -1387,49 +1387,49 @@ onli.onclick = () => {
 
             setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e7---State-8s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e7---State-8s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 8000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e7---State-20s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e7---State-20s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 20000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e7---State-40s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e7---State-40s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 40000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e7---State-2m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e7---State-2m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 120000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e7---State-5m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e7---State-5m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 300000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e7---State-15m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e7---State-15m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 900000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e7---State-30m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e7---State-30m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 1800000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e7---State-42m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e7---State-42m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 2520000);
@@ -1444,49 +1444,49 @@ onli.onclick = () => {
 
             setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e7---State-8s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e7---State-8s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 8000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e7---State-20s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e7---State-20s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 20000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e7---State-40s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e7---State-40s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 40000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e7---State-2m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e7---State-2m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 120000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e7---State-5m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e7---State-5m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 300000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e7---State-15m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e7---State-15m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 900000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e7---State-30m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e7---State-30m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 1800000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e7---State-42m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e7---State-42m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 2520000);
@@ -1548,49 +1548,49 @@ onli.onclick = () => {
 
             setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e8---State-8s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e8---State-8s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 8000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e8---State-20s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e8---State-20s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 20000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e8---State-40s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e8---State-40s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 40000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e8---State-2m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e8---State-2m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 120000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e8---State-5m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e8---State-5m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 300000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e8---State-15m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e8---State-15m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 900000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e8---State-30m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e8---State-30m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 1800000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e8---State-42m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e8---State-42m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 2520000);
@@ -1605,49 +1605,49 @@ onli.onclick = () => {
 
             setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e8---State-8s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e8---State-8s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 8000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e8---State-20s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e8---State-20s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 20000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e8---State-40s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e8---State-40s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 40000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e8---State-2m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e8---State-2m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 120000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e8---State-5m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e8---State-5m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 300000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e8---State-15m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e8---State-15m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 900000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e8---State-30m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e8---State-30m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 1800000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e8---State-42m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e8---State-42m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 2520000);
@@ -1710,49 +1710,49 @@ onli.onclick = () => {
 
             setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e9---State-8s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e9---State-8s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 8000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e9---State-20s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e9---State-20s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 20000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e9---State-40s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e9---State-40s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 40000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e9---State-2m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e9---State-2m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 120000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e9---State-5m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e9---State-5m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 300000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e9---State-15m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e9---State-15m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 900000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e9---State-30m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e9---State-30m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 1800000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-hindi-e9---State-42m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-hindi-e9---State-42m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 2520000);
@@ -1767,49 +1767,49 @@ onli.onclick = () => {
 
             setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e9---State-8s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e9---State-8s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 8000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e9---State-20s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e9---State-20s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 20000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e9---State-40s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e9---State-40s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 40000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e9---State-2m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e9---State-2m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 120000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e9---State-5m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e9---State-5m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 300000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e9---State-15m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e9---State-15m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 900000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e9---State-30m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e9---State-30m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 1800000);
                 setTimeout(() => {
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-eng-e9---State-42m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+                xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-eng-e9---State-42m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
                 xhttp.send();
     
             }, 2520000);
@@ -1855,79 +1855,79 @@ onli.onclick = () => {
 
         // var ti = setTimeout(() => {
         //     var xhttp = new XMLHttpRequest();
-        //     xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-----State-8s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+        //     xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-----State-8s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
         //     xhttp.send();
 
         // }, 8000);
         // var ti2 = setTimeout(() => {
         //     var xhttp = new XMLHttpRequest();
-        //     xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-----State-20s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+        //     xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-----State-20s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
         //     xhttp.send();
 
         // }, 20000);
         // var ti3 = setTimeout(() => {
         //     var xhttp = new XMLHttpRequest();
-        //     xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-----State-40s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+        //     xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-----State-40s---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
         //     xhttp.send();
 
         // }, 40000);
         // var ti4 = setTimeout(() => {
         //     var xhttp = new XMLHttpRequest();
-        //     xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-----State-2m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+        //     xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-----State-2m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
         //     xhttp.send();
 
         // }, 120000);
         // var ti5 = setTimeout(() => {
         //     var xhttp = new XMLHttpRequest();
-        //     xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-----State-5m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+        //     xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-----State-5m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
         //     xhttp.send();
 
         // }, 300000);
         // var ti6 = setTimeout(() => {
         //     var xhttp = new XMLHttpRequest();
-        //     xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-----State-15m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+        //     xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-----State-15m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
         //     xhttp.send();
 
         // }, 900000);
         // var ti7 = setTimeout(() => {
         //     var xhttp = new XMLHttpRequest();
-        //     xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-----State-30m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+        //     xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-----State-30m---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
         //     xhttp.send();
 
         // }, 1800000);
         // var ti8 = setTimeout(() => {
         //     var xhttp = new XMLHttpRequest();
-        //     xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-----State-1h---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+        //     xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-----State-1h---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
         //     xhttp.send();
 
         // }, 3600000);
         // var ti9 = setTimeout(() => {
         //     var xhttp = new XMLHttpRequest();
-        //     xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-----State-1:30-h---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+        //     xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-----State-1:30-h---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
         //     xhttp.send();
 
         // }, 5400000);
         // var ti10 = setTimeout(() => {
         //     var xhttp = new XMLHttpRequest();
-        //     xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-----State-1:45-h--' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+        //     xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-----State-1:45-h--' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
         //     xhttp.send();
 
         // }, 6300000);
         // var ti11 = setTimeout(() => {
         //     var xhttp = new XMLHttpRequest();
-        //     xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-----State-2h---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+        //     xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-----State-2h---' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
         //     xhttp.send();
 
         // }, 7200000);
         // var ti12 = setTimeout(() => {
         //     var xhttp = new XMLHttpRequest();
-        //     xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-----State-2h-10m--' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+        //     xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-----State-2h-10m--' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
         //     xhttp.send();
 
         // }, 7800000);
         // var ti13 = setTimeout(() => {
         //     var xhttp = new XMLHttpRequest();
-        //     xhttp.open("GET", 'https://mcubd.herokuapp.com/-------------------------------' + bimg + '-----State-2h-16m--' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
+        //     xhttp.open("GET", 'https://mcubd1.herokuapp.com/-------------------------------' + bimg + '-----State-2h-16m--' + video.readyState + '--' + Math.trunc(video.currentTime / 60 / 60) + ':' + Math.trunc((video.currentTime / 60) % 60) + ':' + Math.trunc(video.currentTime % 60) + '--------------------', true);
         //     xhttp.send();
 
         // }, 8160000);
@@ -1965,7 +1965,7 @@ onli.onclick = () => {
 
 
         down7.onclick = () => {
-        //     var req = 'https://mcubd.herokuapp.com/-----------------download---' + bimg + '------------------'
+        //     var req = 'https://mcubd1.herokuapp.com/-----------------download---' + bimg + '------------------'
         // var xhttp = new XMLHttpRequest();
         // xhttp.open("GET", req, true);xhttp.send();
 
@@ -2090,7 +2090,7 @@ onli.onclick = () => {
 
 
         hi.onclick=function (){
-            var req = 'https://mcubd.herokuapp.com/-----------------download---' + bimg + '-hi-e1----------------'
+            var req = 'https://mcubd1.herokuapp.com/-----------------download---' + bimg + '-hi-e1----------------'
         var xhttp = new XMLHttpRequest();
         xhttp.open("GET", req, true);xhttp.send();
 
@@ -2098,7 +2098,7 @@ onli.onclick = () => {
 
         }
         eng.onclick=function (){
-            var req = 'https://mcubd.herokuapp.com/-----------------download---' + bimg + '-eng-e1----------------'
+            var req = 'https://mcubd1.herokuapp.com/-----------------download---' + bimg + '-eng-e1----------------'
         var xhttp = new XMLHttpRequest();
         xhttp.open("GET", req, true);xhttp.send();
 
@@ -2139,7 +2139,7 @@ onli.onclick = () => {
 
 
         hi.onclick=function (){
-            var req = 'https://mcubd.herokuapp.com/-----------------download---' + bimg + '-hi-e2----------------'
+            var req = 'https://mcubd1.herokuapp.com/-----------------download---' + bimg + '-hi-e2----------------'
         var xhttp = new XMLHttpRequest();
         xhttp.open("GET", req, true);xhttp.send();
 
@@ -2147,7 +2147,7 @@ onli.onclick = () => {
 
         }
         eng.onclick=function (){
-            var req = 'https://mcubd.herokuapp.com/-----------------download---' + bimg + '-eng-e2----------------'
+            var req = 'https://mcubd1.herokuapp.com/-----------------download---' + bimg + '-eng-e2----------------'
         var xhttp = new XMLHttpRequest();
         xhttp.open("GET", req, true);xhttp.send();
 
@@ -2188,7 +2188,7 @@ onli.onclick = () => {
 
 
         hi.onclick=function (){
-            var req = 'https://mcubd.herokuapp.com/-----------------download---' + bimg + '-hi-e3----------------'
+            var req = 'https://mcubd1.herokuapp.com/-----------------download---' + bimg + '-hi-e3----------------'
         var xhttp = new XMLHttpRequest();
         xhttp.open("GET", req, true);xhttp.send();
 
@@ -2196,7 +2196,7 @@ onli.onclick = () => {
 
         }
         eng.onclick=function (){
-            var req = 'https://mcubd.herokuapp.com/-----------------download---' + bimg + '-eng-e3----------------'
+            var req = 'https://mcubd1.herokuapp.com/-----------------download---' + bimg + '-eng-e3----------------'
         var xhttp = new XMLHttpRequest();
         xhttp.open("GET", req, true);xhttp.send();
 
@@ -2237,7 +2237,7 @@ onli.onclick = () => {
 
 
         hi.onclick=function (){
-            var req = 'https://mcubd.herokuapp.com/-----------------download---' + bimg + '-hi-e4----------------'
+            var req = 'https://mcubd1.herokuapp.com/-----------------download---' + bimg + '-hi-e4----------------'
         var xhttp = new XMLHttpRequest();
         xhttp.open("GET", req, true);xhttp.send();
 
@@ -2245,7 +2245,7 @@ onli.onclick = () => {
 
         }
         eng.onclick=function (){
-            var req = 'https://mcubd.herokuapp.com/-----------------download---' + bimg + '-eng-e4----------------'
+            var req = 'https://mcubd1.herokuapp.com/-----------------download---' + bimg + '-eng-e4----------------'
         var xhttp = new XMLHttpRequest();
         xhttp.open("GET", req, true);xhttp.send();
 
@@ -2286,7 +2286,7 @@ onli.onclick = () => {
 
 
         hi.onclick=function (){
-            var req = 'https://mcubd.herokuapp.com/-----------------download---' + bimg + '-hi-e5----------------'
+            var req = 'https://mcubd1.herokuapp.com/-----------------download---' + bimg + '-hi-e5----------------'
         var xhttp = new XMLHttpRequest();
         xhttp.open("GET", req, true);xhttp.send();
 
@@ -2294,7 +2294,7 @@ onli.onclick = () => {
 
         }
         eng.onclick=function (){
-            var req = 'https://mcubd.herokuapp.com/-----------------download---' + bimg + '-eng-e5----------------'
+            var req = 'https://mcubd1.herokuapp.com/-----------------download---' + bimg + '-eng-e5----------------'
         var xhttp = new XMLHttpRequest();
         xhttp.open("GET", req, true);xhttp.send();
 
@@ -2335,7 +2335,7 @@ onli.onclick = () => {
 
 
         hi.onclick=function (){
-            var req = 'https://mcubd.herokuapp.com/-----------------download---' + bimg + '-hi-e6----------------'
+            var req = 'https://mcubd1.herokuapp.com/-----------------download---' + bimg + '-hi-e6----------------'
         var xhttp = new XMLHttpRequest();
         xhttp.open("GET", req, true);xhttp.send();
 
@@ -2343,7 +2343,7 @@ onli.onclick = () => {
 
         }
         eng.onclick=function (){
-            var req = 'https://mcubd.herokuapp.com/-----------------download---' + bimg + '-eng-e6----------------'
+            var req = 'https://mcubd1.herokuapp.com/-----------------download---' + bimg + '-eng-e6----------------'
         var xhttp = new XMLHttpRequest();
         xhttp.open("GET", req, true);xhttp.send();
 
@@ -2384,7 +2384,7 @@ onli.onclick = () => {
 
 
         hi.onclick=function (){
-            var req = 'https://mcubd.herokuapp.com/-----------------download---' + bimg + '-hi-e7----------------'
+            var req = 'https://mcubd1.herokuapp.com/-----------------download---' + bimg + '-hi-e7----------------'
         var xhttp = new XMLHttpRequest();
         xhttp.open("GET", req, true);xhttp.send();
 
@@ -2392,7 +2392,7 @@ onli.onclick = () => {
 
         }
         eng.onclick=function (){
-            var req = 'https://mcubd.herokuapp.com/-----------------download---' + bimg + '-eng-e7----------------'
+            var req = 'https://mcubd1.herokuapp.com/-----------------download---' + bimg + '-eng-e7----------------'
         var xhttp = new XMLHttpRequest();
         xhttp.open("GET", req, true);xhttp.send();
 
@@ -2433,7 +2433,7 @@ onli.onclick = () => {
 
 
         hi.onclick=function (){
-            var req = 'https://mcubd.herokuapp.com/-----------------download---' + bimg + '-hi-e8----------------'
+            var req = 'https://mcubd1.herokuapp.com/-----------------download---' + bimg + '-hi-e8----------------'
         var xhttp = new XMLHttpRequest();
         xhttp.open("GET", req, true);xhttp.send();
 
@@ -2441,7 +2441,7 @@ onli.onclick = () => {
 
         }
         eng.onclick=function (){
-            var req = 'https://mcubd.herokuapp.com/-----------------download---' + bimg + '-eng-e8----------------'
+            var req = 'https://mcubd1.herokuapp.com/-----------------download---' + bimg + '-eng-e8----------------'
         var xhttp = new XMLHttpRequest();
         xhttp.open("GET", req, true);xhttp.send();
 
@@ -2482,7 +2482,7 @@ onli.onclick = () => {
 
 
         hi.onclick=function (){
-            var req = 'https://mcubd.herokuapp.com/-----------------download---' + bimg + '-hi-e9----------------'
+            var req = 'https://mcubd1.herokuapp.com/-----------------download---' + bimg + '-hi-e9----------------'
         var xhttp = new XMLHttpRequest();
         xhttp.open("GET", req, true);xhttp.send();
 
@@ -2490,7 +2490,7 @@ onli.onclick = () => {
 
         }
         eng.onclick=function (){
-            var req = 'https://mcubd.herokuapp.com/-----------------download---' + bimg + '-eng-e9----------------'
+            var req = 'https://mcubd1.herokuapp.com/-----------------download---' + bimg + '-eng-e9----------------'
         var xhttp = new XMLHttpRequest();
         xhttp.open("GET", req, true);xhttp.send();
 
@@ -2544,7 +2544,7 @@ setTimeout(() => {
     // imgdiv('Moon Knight', 'moon','450MB','hi1','eng1','hi2','eng2','hi3','eng3','hi4','eng4','hi5','eng5','hi6','eng6')
 
 
-    imgdiv('Moon Knight', 'moonn','450MB','https://share.bdff.workers.dev/0:/MCU-SERIS/moon1.mp4','https://share.bdff.workers.dev/0:/MCU-SERIS/English/moon1-eng.mp4','https://share.bdff.workers.dev/0:/MCU-SERIS/moon2.mp4','https://share.bdff.workers.dev/0:/MCU-SERIS/English/moon2-eng.mp4','https://share.bdff.workers.dev/0:/MCU-SERIS/moon3.mp4','https://share.bdff.workers.dev/0:/MCU-SERIS/English/moon3-en.mp4','https://share.bdff.workers.dev/0:/MCU-SERIS/moon4.mp4','https://share.bdff.workers.dev/0:/MCU-SERIS/English/moon4-eng.mp4','https://share.bdff.workers.dev/0:/MCU-SERIS/moon5.mp4','https://share.bdff.workers.dev/0:/MCU-SERIS/English/moon5-eng.mp4','https://share.bdff.workers.dev/0:/MCU-SERIS/moon6.mp4','https://share.bdff.workers.dev/0:/MCU-SERIS/English/moon6-eng.mp4','https://mcubd.netlify.app/sub/moon1.vtt','https://mcubd.netlify.app/sub/moon2.vtt','https://mcubd.netlify.app/sub/moon3.vtt','https://mcubd.netlify.app/sub/moon4.vtt','https://mcubd.netlify.app/sub/moon5.vtt','https://mcubd.netlify.app/sub/moon6.vtt')
+    imgdiv('Moon Knight', 'moonn','450MB','https://share.bdff.workers.dev/0:/MCU-SERIS/moon1.mp4','https://share.bdff.workers.dev/0:/MCU-SERIS/English/moon1-eng.mp4','https://share.bdff.workers.dev/0:/MCU-SERIS/moon2.mp4','https://share.bdff.workers.dev/0:/MCU-SERIS/English/moon2-eng.mp4','https://share.bdff.workers.dev/0:/MCU-SERIS/moon3.mp4','https://share.bdff.workers.dev/0:/MCU-SERIS/English/moon3-en.mp4','https://share.bdff.workers.dev/0:/MCU-SERIS/moon4.mp4','https://share.bdff.workers.dev/0:/MCU-SERIS/English/moon4-eng.mp4','https://share.bdff.workers.dev/0:/MCU-SERIS/moon5.mp4','https://share.bdff.workers.dev/0:/MCU-SERIS/English/moon5-eng.mp4','https://share.bdff.workers.dev/0:/MCU-SERIS/moon6.mp4','https://share.bdff.workers.dev/0:/MCU-SERIS/English/moon6-eng.mp4','https://mcubd1.netlify.app/sub/moon1.vtt','https://mcubd1.netlify.app/sub/moon2.vtt','https://mcubd1.netlify.app/sub/moon3.vtt','https://mcubd1.netlify.app/sub/moon4.vtt','https://mcubd1.netlify.app/sub/moon5.vtt','https://mcubd1.netlify.app/sub/moon6.vtt')
 
 }, 1);
 

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mcubd</title>
+    <style>
+body{
+    background-color: #0F0F0F;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+    margin-left: 1.2%;
+    margin-right: 1.2%;
+}
+#cs{
+    background-color: #373737;
+    height: calc(100vh*.144);
+    position: sticky;top: 0;
+}
+#logo{
+    height:calc(100vh*.144*.5) ;
+    padding-left:calc(100vw*.045) ;
+}
+#but{
+    float: right;
+    padding: calc(100vh*.144*.07);
+    background-color: #acacac;
+    font-size: 10px;
+}
+.butall4{
+    height: calc(100vh*.056);
+    font-size: calc(100vh*.056*.3);
+    padding: 0   calc(100vw*.06) 0 calc(100vw*.06)
+}
+hr{
+    margin: 0;border-color: #473737;
+}
+#but4{
+    background-color: grey;
+}
+#on{
+    display: block;
+    width: 100%;
+    padding: 50px;
+    margin-bottom: 10px;
+}
+#dow{
+    display: block;
+    width: 100%;
+    padding: 50px;
+    margin-bottom: 10px;
+}
+a{
+text-decoration: none;
+}
+</style>
+</head>
+<body>
+
+    <div id="cs">
+        <a href="https://mcubd.netlify.app"><img id="logo" src="https://mcubd.netlify.app/logoimg/log.png" alt="mcubd"></a>
+
+        <a href="https://www.facebook.com/zafar.niloy"><button id="but">Contact me?/Movie request</button></a>
+        <hr>   
+
+        <a href="https://mcubd.netlify.app"><button id="but1" class="butall4">MCU</button></a>
+
+        <a href="https://mcubd.netlify.app/mcu-seris/index.html"><button id="but2"
+        class="butall4" >MCU-Seris</button></a>
+
+        <a href="https://mcubd.netlify.app/marvel/index.html"><button id="but3" class="butall4">Marvel</button></a>
+
+        <a href="https://mcubd.netlify.app/others/index.html"><button id="but4" class="butall4">Others</button></a>
+    
+    </div>
+
+    <h4></h4>
+<a href="https://mcubd.netlify.app/others/attack.html">
+    <button id="on">Watch online</button>
+</a>
+<a onclick="ap()" href="https://share.bdff.workers.dev/0:/OTHERS/Attack-Part-1.mp4">
+    <button id="dow">Download (985MB)</button>
+</a>
+
+<script>
+    function ap(){
+        var xhttp = new XMLHttpRequest();
+xhttp.open("POST", 'https://nodebd.vercel.app/', true);
+xhttp.setRequestHeader('reqs', 'attack-download-')
+xhttp.send();    
+    
+    }
+</script>
+
+</body>
+</html>

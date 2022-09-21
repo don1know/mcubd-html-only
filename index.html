@@ -240,6 +240,33 @@
 </div>
 
 <script>
+
+var chidiv=document.getElementById('chidiv')
+var image=document.getElementById('poster')
+var iiidiv=document.getElementById('iiidiv')
+
+var w = window.innerWidth;
+    var h = window.innerHeight;
+    var g = w * .3939
+
+if (h - w < 0) {
+        chidiv.style.height = h * .9 + 'px'
+        chidiv.style.width = g * .6 + 'px'
+        image.style.width = g * .6 + 'px'
+        iiidiv.style.height = h * .7 + 'px'
+    } 
+    else {
+        chidiv.style.height = h * .55 + 'px'
+        chidiv.style.width = g + 'px'
+        image.style.width = g + 'px'
+        iiidiv.style.height = h * .4 + 'px'
+    }
+
+
+
+
+
+
     let userAgent = navigator.userAgent;
     let browserName='slow'
     if(userAgent.match(/chrome|chromium|crios/i)){

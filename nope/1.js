@@ -20,7 +20,7 @@ function imgdiv(bname,q7pp) {
     iiidiv.classList.add('iii');
     image.src ='bimg'
 
-    iiidiv.append(image)
+    // iiidiv.append()
     chidiv.append(iiidiv, p)
     var con = document.getElementById('cont')
     con.appendChild(chidiv)

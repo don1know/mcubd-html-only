@@ -1,21 +1,10 @@
-function me() {
-}
-function mcus() {
-}
-function mcu() {
-}
-function home() {
-}
-function mar() {
-}
-function other() {
-}
+function me() {}function mcus() {}function mcu() {}function home() {}function mar() {}function other() {}
 
 
 
 
 
-function imgdiv(bimg, q7pp) {
+function imgdiv(bname,q7pp) {
     var w = window.innerWidth*.95
     var h = window.innerHeight;
     var g = w * .3939
@@ -24,12 +13,12 @@ function imgdiv(bimg, q7pp) {
     var chidiv = document.createElement("div");
     var iiidiv = document.createElement("div");
     var p = document.createElement("p");
-    // p.innerText = bname
+    p.innerText = bname
     var image = document.createElement("img");
 
     chidiv.classList.add('chi');
     iiidiv.classList.add('iii');
-    image.src =bimg
+    image.src ='bimg'
 
     iiidiv.append(image)
     chidiv.append(iiidiv, p)
@@ -43,10 +32,10 @@ function imgdiv(bimg, q7pp) {
         chidiv.style.padding = '0px'
         chidiv.style.marginTop = '14px'
         // chidiv.style.float = 'left'
-        chidiv.style.height = h + 'px'
+        chidiv.style.height = h*.1 + 'px'
         chidiv.style.width = w+'px'
 
-        image.style.width = w+ 'px'
+        // image.style.width = w+ 'px'
         // image.style.height = h * .7 + 'px'
 
 
@@ -59,11 +48,11 @@ function imgdiv(bimg, q7pp) {
         chidiv.style.padding = '0px'
         chidiv.style.marginTop = '14px'
         // chidiv.style.float = 'left'
-        chidiv.style.height = h +'px'
+        chidiv.style.height = h*.1 +'px'
         chidiv.style.width = w + 'px'
 
         // image.style.width = g + 'px'
-        image.style.width = w+ 'px'
+        // image.style.width = w+ 'px'
 
 
         iiidiv.style.width = w + 'px'
@@ -156,10 +145,13 @@ setTimeout(() => {
 
     // imgdiv(name,img,q7,down,size)
 
-    imgdiv('https://share.bdff.workers.dev/0:/OTHERS/English./poster/lisa-dance.jpg', 'https://share.bdff.workers.dev/0:/OTHERS/English./lisa-dance.mp4')
+    imgdiv('lisa-dance', 'https://share.bdff.workers.dev/0:/OTHERS/English./lisa-dance.mp4')
 
 
-    imgdiv('https://share.bdff.workers.dev/0:/OTHERS/English./poster/lisa-dance.jpg', 'https://share.bdff.workers.dev/0:/OTHERS/English./black-widow.mp4')
+    imgdiv('black-widow', 'https://share.bdff.workers.dev/0:/OTHERS/English./black-widow.mp4')
+
+
+    imgdiv('van', 'https://share.bdff.workers.dev/0:/OTHERS/English./van.mp4')
 
 
     // imgdiv('Guardian of the galaxy vol.2  (2017) [1.2GB]', 'galaxy2','https://abcd.bdff.workers.dev/0:/Guardian2-mp3.mp4', '1.2GB')
